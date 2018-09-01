@@ -24,4 +24,8 @@ object pepita {
 		energia -= self.energiaParaVolar(posicion.distance(nuevaPosicion))
 		self.posicion(nuevaPosicion)
 	}	
+	method teEncontro(alguien){
+		alguien.darComida(self) //modificar para que le de la comida
+		
+}	
 }
