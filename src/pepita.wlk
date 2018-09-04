@@ -9,8 +9,8 @@ object pepita {
 	
 	
 	method imagen() {
-		if (energia < 10){unaImagen	= "pepita.png"}
-		if (energia > 100){unaImagen = "pepita2.png"}
+		if (energia < 10){unaImagen	= "pepita.png" return unaImagen}
+		if (energia > 100){unaImagen = "pepita2.png" return unaImagen}
 		else{unaImagen = "pepita1.png"}
 		return unaImagen
 		}
