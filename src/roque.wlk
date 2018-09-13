@@ -16,12 +16,10 @@ object roque {
 	method darComida(golondrina) {
 		if (comidaActual != null) {
 			golondrina.come(comidaActual)
-			game.addVisualIn(comidaActual , game.at(new Range(1,9).anyOne(),new Range(1,9).anyOne()))
+			game.addVisualIn(comidaActual, game.at(new Range(1,9).anyOne(), new Range(1,9).anyOne()))
 			comidaActual = null
-			
 		}
 	}
 
 }
-
 

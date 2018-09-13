@@ -18,7 +18,7 @@ program PepitaGame {
 	game.addVisual(buenosAires)
 	game.addVisual(villaGesell)
 	game.addVisual(pepita)//,game.at(1,8))
-	game.addVisualCharacter(roque)// este mensaje asocia las teclas de la flechitas con pepita.
+	game.addVisualCharacter(roque)// este mensaje asocia las teclas de la flechitas con pepita. // (con roque)
 	game.whenCollideDo(roque ,{ algo =>	algo.teEncontro(roque)})
 	
 	

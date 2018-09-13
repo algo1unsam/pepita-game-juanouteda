@@ -5,6 +5,8 @@ object manzana {
 	
 	method teEncontro(alguien){
 		alguien.levantar(self)
+		// TODO está bien que pusiste el mensaje pero ojo porque roque no la come
+		// la levanta
 		game.say(alguien, "Comi una Manzana")
 		game.removeVisual(self)
 		
